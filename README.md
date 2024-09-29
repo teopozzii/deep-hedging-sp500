@@ -9,7 +9,7 @@ The purpose of the exercise is to define a "statistical" hedging policy, based o
 
 We use the first 300 observations for training the model and the rest of the sample for testing.
 
-The Colab notebook
+The project is **meant to be opened in Colab**, and it is recommended to use a TPU or GPU backend to speed up computations. The Colab notebook
 1. computes the result of delta hedging each option using the provided deltas.
 2. builds an alternative (deep) hedging proposal.
 3. compares the results.
